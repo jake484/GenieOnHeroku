@@ -10,7 +10,7 @@ function launchServer(port)
     println("port set to $(port)")
 
     route("/") do
-        "Hi there!"
+        "Hi!"
     end
 
     Genie.AppServer.startup()
